@@ -6,4 +6,5 @@
     <string name="title_activity_second_screen">Second Screen Activity</string>
     <string name ="MainActivityResumeCounter">Resume Counter</string>
     <string name ="RunAppendedThread">Run Thread</string>
+    <string name = "CallbackCounterText">Callback Counter</string>
 </resources>

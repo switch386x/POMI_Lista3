@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 //zadania eportal
 //lista3
 //czemu toolbar jest widoczny w liscie2 jesli jest usuniety i i tak pokazuje tam tytul? jak uzyskac pokazywanie tytulu listy DONE
@@ -68,11 +70,12 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState, outPersistentState);
     }
 
-    @Override
+    @Override //setText(String.valueOf(counter));
     protected void onResume() {
         super.onResume();
         counter+=1;
-        ((Button)findViewById(R.id.ResumeCounter)).setText(String.valueOf(counter));
+        TextView callbackTextView = findViewById(R.id.CallbackCounter);
+        callbackTextView.setText(String.valueOf(counter));
     }
 
     @Override

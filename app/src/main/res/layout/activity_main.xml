@@ -18,6 +18,17 @@
         android:textColor="@color/linkColor"
         app:layout_constraintBottom_toTopOf="@id/RunAppendedThread"
         />
+    <TextView
+        android:id="@+id/CallbackCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CallbackCounterText"
+        android:textSize="40sp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textColor="@color/callbackColor"
+        app:layout_constraintBottom_toTopOf="@id/linkContainerTextView"
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
