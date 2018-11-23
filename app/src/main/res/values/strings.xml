@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">POMI_ListaZadan_3</string>
+    <string name="action_settings">Settings</string>
+    <string name="linkContainer">Get Me to StackOverflow</string>
+    <string name="ResumeButtonText">Get me to next activity</string>
+    <string name="title_activity_second_screen">Second Screen Activity</string>
+    <string name ="MainActivityResumeCounter">Resume Counter</string>
+    <string name ="RunAppendedThread">Run Thread</string>
+</resources>
